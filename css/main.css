@@ -184,7 +184,7 @@ a.button:hover {
 	line-height: 40px;
 }
 
-.right-site-links li a:first-child {
+.right-site-links li a {
 	padding-right: 8px;
 }
 
@@ -201,13 +201,64 @@ font-size: 14px;
 }
 
 
+@media (max-width: 640px) {
+	.search-input-wrapper,
+	.search-box input {
+		width: 90%;
+	}
+}
+
+@media (max-width: 537px) {
+	.bottom-site-links {
+		
+	}
+
+	.left-site-links, .right-site-links {
+		width: 100%;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.left-site-links li, .right-site-links li {
+		margin: 0 auto;
+	}
+
+	.left-site-links li a {
+		padding: 0 27px;
+	}
+
+	 .right-site-links li a {
+	 	padding: 0 32px;
+	 }
+}
+
+@media (max-width: 399px) {
+	.bottom-site-links {
+		display: none;
+		
+	}
 
 
+@media (max-width: 350px) {
+	nav {
+		width: 75%;
+	}
 
+	.top-navigation .nelly,
+	.top-navigation .mail,
+	.top-navigation .images {
+		display: none;
+	}
 
+	.top-navigation {
+		margin: 16px auto 0px;
+	}
 
-
-
+	.search-box {
+		margin-top: 0px;
+	}
+}
 
 
 
